@@ -209,7 +209,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DE_VIRGU  &kp LS(GRAVE) // VIRGURILLA
 #define DE_EXCL &kp LS(N1)    // !
 #define DE_DQUO &kp LS(N2)    // "
-#define DE_HASH &kp LS(N3)    // #
+#define DE_HASHLS &kp LS(N3)    // #
 #define DE_DLR  &kp LS(N4)    // $
 #define DE_PERC &kp LS(N5)    // %
 #define DE_AMPR &kp LS(N6)    // &
