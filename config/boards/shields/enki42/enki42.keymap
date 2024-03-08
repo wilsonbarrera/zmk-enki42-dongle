@@ -30,9 +30,9 @@ SPDX-License-Identifier: MIT
 #include "keypos_42keys.h"
 #include "config_zmk.h"
 //#include "mouse.dtsi"
-&led_strip {
-    chain-length = <27>;
-};
+//&led_strip {
+//    chain-length = <27>;
+//};
 // }}}
 / {
 // ### macros {{{
