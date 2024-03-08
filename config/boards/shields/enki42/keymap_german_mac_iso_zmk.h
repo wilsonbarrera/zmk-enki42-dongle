@@ -178,7 +178,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DE_L &kp L            // L
 #define DE_ODIA &kp SEMICOLON // Ö
 #define DE_ADIA &kp APOS      // Ä
-#define DE_HASH &kp BSLH      // #
+#define DE_HASH &kp HASH      // #
 // Row 4
 #define DE_LABK &kp GRAVE // <
 #define DE_Y &kp Z        // Y
