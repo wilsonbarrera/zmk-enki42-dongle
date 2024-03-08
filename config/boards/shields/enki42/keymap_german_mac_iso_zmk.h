@@ -176,7 +176,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DE_J &kp J            // J
 #define DE_K &kp K            // K
 #define DE_L &kp L            // L
-#define DE_ODIA &kp SEMICOLON // ;
+//#define DE_ODIA &kp SEMICOLON // ;
 #define DE_ADIA &kp APOS      // apostrofe '
 #define DE_HASH &kp HASH      // #
 // Row 4
