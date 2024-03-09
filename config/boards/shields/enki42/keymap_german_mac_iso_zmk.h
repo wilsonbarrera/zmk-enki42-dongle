@@ -366,7 +366,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DE_LN_TILDE &kp LS(RA(N8)) // ~
 #define DE_LN_CARET &kp RA(APOS) // ^
 #define DE_LN_DQUO &kp LS(N2) // "
-#define DE_TILDE &kp LS(PIPE) // ~
+#define DE_TILDE &kp LS(GRAVE) // ~
 
 // ###############
 // #define DE_FSLH &kp AMPS  // "/" DE_SLSH
