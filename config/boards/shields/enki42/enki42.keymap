@@ -84,7 +84,7 @@ SPDX-License-Identifier: MIT
          label = "Marcos";
          bindings = <
             MEDIA_ESC   DE_Q   DE_W   DE_E   DE_R      DE_T                            &kp Y       &kp U &kp I        &kp O    &kp P    &kp BSPC
-            MOUSE_TAB   DE_A   DE_S   DE_D   DE_F      DE_G                            &kp H       &kp J &kp K        &kp L    &kp SEMICOLON    DE_RET
+            MOUSE_TAB   DE_A   DE_S   DE_D   DE_F      DE_G                            &kp H       &kp J &kp K        &kp L    &ene_big   DE_RET
             DE_LSHFT    DE_Y   DE_X   DE_C   DE_V      DE_B                            DE_N        DE_M  LSHFT_COMMA  DE_LEFT  DE_DOWN  DE_RIGHT
                                              DE_LCTRL  DE_LGUI  DE_RALT  NUMBER_SPACE  SYMBOL_RGUI  FUNCTION_RALT
             >;
