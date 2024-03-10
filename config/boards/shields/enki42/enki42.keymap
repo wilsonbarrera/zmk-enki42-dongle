@@ -83,10 +83,10 @@ SPDX-License-Identifier: MIT
                                   '--------------------------------'       '----------------------------------'*/
          label = "Marcos";
          bindings = <
-         &kp TAB          DE_Q   DE_W   DE_E   DE_R      DE_T               &kp Y    &kp U    &kp I        &kp O    &kp P    &kp BSPC
-         &kp LEFT_SHIFT   DE_A   DE_S   DE_D   DE_F      DE_G               &kp H    &kp J    &kp K        &kp L    DE_ENIE  &kp Apostrophe
-         DE_LCTRL         DE_Y   DE_X   DE_C   DE_V      DE_B               DE_N     DE_M     &kp COMMA    &kp SEMI &kp DOT  &kp ESC
-                                               DE_LGUI   &lt NUMBER  DE_RET DE_SPACE SYMBOL_RGUI DE_RALT
+         &kp TAB          DE_Q  DE_W  DE_E  DE_R  DE_T              &kp Y  &kp U  &kp I  &kp O  &kp P    &kp BSPC
+         &kp LEFT_SHIFT   DE_A  DE_S  DE_D  DE_F  DE_G              &kp H  &kp J  &kp K  &kp L  DE_ENIE  &kp Apostrophe
+         DE_LCTRL         DE_Y  DE_X  DE_C  DE_V  DE_B              DE_N  DE_M  &kp COMMA  &kp SEMI    &kp DOT  &kp ESC
+                                           DE_LGUI  &lt NUMBER  DE_RET DE_SPACE SYMBOL_RGUI DE_RALT
             >;
       };
       // }}}
@@ -103,7 +103,7 @@ SPDX-License-Identifier: MIT
                                    '--------------------------------'       '--------------------------------'*/
          label = "NUMBER";
          bindings = <
-         DE_0      DE_1   DE_2   DE_3    DE_MINS   DE_PLUS                     DE_SS    DE_UDIA  DE_ADIA    DE_ODIA    &ene_big DE_BSPC
+         DE_0      DE_1   DE_2   DE_3    DE_MINS   DE_PLUS                     DE_SS    DE_UDIA  DE_ADIA    DE_ODIA  &ene_big   DE_BSPC
          DE_CAPS   DE_4   DE_5   DE_6    DE_SLSH   DE_ASTR                     DE_HASH  DE_TILD  DE_QUES    DE_AT    DE_UP      DE_RET
          DE_LSHFT  DE_7   DE_8   DE_9    DE_PERC   DE_EQL                      DE_DOT   DE_ACUT  DE_GRV     DE_LEFT  DE_DOWN    DE_RIGHT
                                          DE_LCTRL  DE_LGUI    DE_SPACE   XXX   DE_LSHFT DE_RALT
