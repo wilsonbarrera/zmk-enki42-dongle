@@ -73,20 +73,20 @@ SPDX-License-Identifier: MIT
       // ### default_layer {{{
       default_layer {
       /*.------------------------------------------------.                         .-------------------------------------------------.
-         |LT4 ESC |   Q   |   W   |   E   |   R   |   T   |                         |   Y   |   U   |   I   |   O   |   P   | BACKSPC |
+         |TAB     |   Q   |   W   |   E   |   R   |   T   |                         |   Y   |   U   |   I   |   O   |   P   | BACKSPC |
          |--------+-------+-------+-------+-------+-------|                         |-------+-------+-------+-------+-------+---------|
-         |LT5 TAB |   A   |   S   |   D   |   F   |   G   |                         |   H   |   J   |   K   |   L   |  ñ   |   ENTER |
+         |SHIFT   |   A   |   S   |   D   |   F   |   G   |                         |   H   |   J   |   K   |   L   |  ñ    |   '     |
          |--------+-------+-------+-------+-------+-------|                         |-------+-------+-------+-------+-------+---------|
-         |SHIFT   |   Y   |   X   |   C   |   V   |   B   |                         |   N   |   M   |LSFT , |  ; |  DOWN |   RIGHT |
+         |CTRL    |   Y   |   X   |   C   |   V   |   B   |                         |   N   |   M   |   ,   |  .    |  DOWN |   ESC   |
          '---------------------------------------------------------|       |----------------------------------------------------------'
-                                  |  CTRL    |  CMD       |   ALT  |       | LT1 SPACE | LT2 CMD   | LT3 RALT |
+                                  |  WIN    |  LT1       |   ENTER  |       | SPACE | LT2 CMD   |  RALT |
                                   '--------------------------------'       '----------------------------------'*/
          label = "Marcos";
          bindings = <
-            MEDIA_ESC   DE_Q   DE_W   DE_E   DE_R      DE_T                            &kp Y       &kp U &kp I        &kp O    &kp P    &kp BSPC
-            MOUSE_TAB   DE_A   DE_S   DE_D   DE_F      DE_G                            &kp H       &kp J &kp K        &kp L    DE_ENIE   DE_RET
-            DE_LSHFT    DE_Y   DE_X   DE_C   DE_V      DE_B                            DE_N        DE_M  LSHFT_COMMA  &kp SEMI  DE_DOWN  DE_RIGHT
-                                             DE_LCTRL  DE_LGUI  DE_RALT  NUMBER_SPACE  SYMBOL_RGUI  FUNCTION_RALT
+            &kp TAB   DE_Q   DE_W   DE_E   DE_R      DE_T                            &kp Y       &kp U &kp I        &kp O    &kp P    &kp BSPC
+            DE_LSHFT   DE_A   DE_S   DE_D   DE_F      DE_G                           &kp H       &kp J &kp K        &kp L    DE_ENIE  &kp Apostrophe
+            DE_LCTRL    DE_Y   DE_X   DE_C   DE_V      DE_B                          DE_N        DE_M  &kp COMMA    &kp SEMI &kp DOT  &kp ESC
+                                          DE_LGUI  &lt NUMBER  DE_RET          DE_SPACE  SYMBOL_RGUI  DE_RALT
             >;
       };
       // }}}
