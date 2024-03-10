@@ -65,7 +65,7 @@ MACRO(macro6, &kp M &kp A &kp C &kp R &kp O &kp N6)
 MACRO(macro7, &kp M &kp A &kp C &kp R &kp O &kp N7)
 MACRO(macro8, &kp M &kp A &kp C &kp R &kp O &kp N8)
 MACRO(macro9, &kp M &kp A &kp C &kp R &kp O &kp N9)
-MACRO(ene_small, RA(DE_TILDE DE_N))
+MACRO(ene_small, DE_TILDE DE_N))
 MACRO(ene_big,  DE_TILDE N)
 // }}}
 // vim: filetype=dts fdm=marker:
