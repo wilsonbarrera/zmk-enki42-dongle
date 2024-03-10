@@ -166,7 +166,7 @@ SPDX-License-Identifier: MIT
          bindings = <
          XXX          SC_FLOW  TXTSNIP  SC_SHOT OP_TERM   XXX               POS1        POS2      DE_LANG1   DE_LANG2    DE_STOP    DE_DEL
          &bootloader  SC_SPSF  SC_RE    XXX     XXX       XXX               POS3        POS4      DE_LANG3   DE_SHUFFLE  DE_VOL_UP  DE_PLAY
-         &sys_reset   XXX      XXX      XXX     XXX       XXX               &ene_small  &ene_big  DE_MUTE    DE_PREV     DE_VOL_DN  DE_NEXT
+         &sys_reset   XXX      XXX      XXX     XXX       XXX                           &ene_big  DE_MUTE    DE_PREV     DE_VOL_DN  DE_NEXT
                                         DE_LCTRL  DE_LGUI  DE_LALT  DE_SPACE  DE_RALT DE_LCTRL
                               >;
                       };
