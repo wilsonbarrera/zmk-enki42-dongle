@@ -350,6 +350,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DE_MDSH &kp LS(LA(MINUS)) // —
 
 // DE_LN_XXX for linux and windows
+#define DE_ENIE &kp RA(N) // ñ siempre y cuando el teclado este configurado en english intl y en windows ligado al español    
 #define DE_LN_LABK &kp NUBS // <
 #define DE_LN_RABK &kp LS(NUBS) // >
 #define DE_LN_LBRC &kp RA(N5) // [
