@@ -77,7 +77,7 @@ SPDX-License-Identifier: MIT
          |--------+-------+-------+-------+-------+-------|                         |-------+-------+-------+-------+-------+---------|
          |LT5 TAB |   A   |   S   |   D   |   F   |   G   |                         |   H   |   J   |   K   |   L   |  ñ   |   ENTER |
          |--------+-------+-------+-------+-------+-------|                         |-------+-------+-------+-------+-------+---------|
-         |SHIFT   |   Y   |   X   |   C   |   V   |   B   |                         |   N   |   M   |LSFT , |  LEFT |  DOWN |   RIGHT |
+         |SHIFT   |   Y   |   X   |   C   |   V   |   B   |                         |   N   |   M   |LSFT , |  ; |  DOWN |   RIGHT |
          '---------------------------------------------------------|       |----------------------------------------------------------'
                                   |  CTRL    |  CMD       |   ALT  |       | LT1 SPACE | LT2 CMD   | LT3 RALT |
                                   '--------------------------------'       '----------------------------------'*/
@@ -85,7 +85,7 @@ SPDX-License-Identifier: MIT
          bindings = <
             MEDIA_ESC   DE_Q   DE_W   DE_E   DE_R      DE_T                            &kp Y       &kp U &kp I        &kp O    &kp P    &kp BSPC
             MOUSE_TAB   DE_A   DE_S   DE_D   DE_F      DE_G                            &kp H       &kp J &kp K        &kp L    &kp SEMICOLON   DE_RET
-            DE_LSHFT    DE_Y   DE_X   DE_C   DE_V      DE_B                            DE_N        DE_M  LSHFT_COMMA  DE_LEFT  DE_DOWN  DE_RIGHT
+            DE_LSHFT    DE_Y   DE_X   DE_C   DE_V      DE_B                            DE_N        DE_M  LSHFT_COMMA  &kp SEMI  DE_DOWN  DE_RIGHT
                                              DE_LCTRL  DE_LGUI  DE_RALT  NUMBER_SPACE  SYMBOL_RGUI  FUNCTION_RALT
             >;
       };
