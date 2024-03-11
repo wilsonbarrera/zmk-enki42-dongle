@@ -97,7 +97,7 @@ SPDX-License-Identifier: MIT
          |---------+-------+-------+-------+-------+-------|                         |-------+-------+-------+-------+-------+---------|
          |CAPS_LOCK|   @   |   #   |       |   =   |   *   |                         |   +   |  LEFT |   UP  |  RIGHT|  (     |   )    |
          |---------+-------+-------+-------+-------+-------|                         |-------+-------+-------+-------+-------+---------|
-         | SHIFT   |    {  |   }    |       |   %   |   /   |                         |   -   |   ?   |  DOWN |       |  [     |   ]    |
+         | SHIFT   |    {  |   }    |       |   %   |   /   |                        |   -   |   ?   |  DOWN |       |  [     |   ]    |
          '----------------------------------------------------------|       |----------------------------------------------------------'
                                    |  CTRL |  CMD  |     SPACE      |       |        |  LSFT |      ALTGR    |
                                    '--------------------------------'       '--------------------------------'*/
@@ -113,19 +113,19 @@ SPDX-License-Identifier: MIT
       // ### symbol_layer {{{
       symbol_layer {
        /*.------------------------------------------------.          TODO:          .-------------------------------------------------.
-         |   $    |   (   |   )   |   [   |   ]   |   &   |                         |  `    |   '   |   ´   |   "   |       |BACKSPC  |
+         |    ~   |   !   |   "   |   #   |   $   |    %   |                         |  &    |   /   |   (   |   )   |   =   |BACKSPC  |
          |--------+-------+-------+-------+-------+-------|                         |-------+-------+-------+-------+-------+---------|
-         |   %    |   {   |   }   |   ^   |PAGE_UP|   #   |                         |   \   |   |   |   /   |  &    |  UP   |   ENTER |
+         |    |  |   @   |   }   |   ^   |       |   #    |                         |   \   |       |       |  &    |PAGE_UP|PRINTSCR |
          |--------+-------+-------+-------+-------+-------|                         |-------+-------+-------+-------+-------+---------|
-         |SHIFT   |    <  |   >   |  HOME |PAGE_DO|  END  |                         |   ~   |   '   |       |  LEFT |  DOWN |   RIGHT |
+         |SHIFT   |    <  |   >   |  HOME |PAGE_DO|  END  |                         |      |   '   |       |  HOME |PAGE_DO|   END   |
          '---------------------------------------------------------|       |----------------------------------------------------------'
                                   |  CTRL    |  CMD       | SPACE  |       |  ENTER | ALTGR |          CTRL |
                                   '--------------------------------'       '--------------------------------'*/
          label = "SYMBOL";
          bindings = <
-         DE_DLR   DE_LPRN  DE_RPRN   DE_LBRC  DE_RBRC    DE_AMPR                    DE_GRV   DE_QUOT   DE_ACUT  DE_LN_DQUO  XXX      DE_BSPC
-         DE_PERC  DE_LCBR  DE_RCBR   DE_CARET DE_PG_UP   DE_HASH                    DE_BSLS  DE_PIPE   DE_SLSH  DE_AMPR     DE_UP    DE_RET
-         DE_LSHFT DE_LABK  DE_RABK   DE_HOME  DE_PG_DN   DE_END                     DE_TILDE  DE_QUOT   XXX      DE_LEFT     DE_DOWN  DE_RIGHT
+         &kp TILDE &kp EXCL &kp DQT   DE_HASH  &kp DLLR   &kp PRCNT                  &kp AMPS DE_SLSH   &kp LPAR  &kp RPAR &kp EQUAL DE_BSPC
+         &kp PIPE  &kp AT   DE_RCBR   DE_CARET DE_PG_UP   DE_HASH                    DE_BSLS                      DE_AMPR     DE_PG_UP     &kp PRINTSCREEN
+         DE_LSHFT DE_LABK  DE_RABK   DE_HOME  DE_PG_DN   DE_END                               DE_QUOT   XXX      DE_HOME    DE_PG_DN   DE_END
                                               DE_LCTRL   DE_LGUI  DE_SPACE  DE_RET  SYMBOL_RGUI  FUNCTION_RALT
          >;
       };
