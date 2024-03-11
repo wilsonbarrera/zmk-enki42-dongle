@@ -82,7 +82,7 @@ SPDX-License-Identifier: MIT
         PUNTODOSPUNTOS: punto_dospuntos {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp COMMA>, <&kp SEMICOLON>;
+            bindings = <&kp DOT>, <&kp COLON>;
             mods = <(MOD_LSFT)>;
         };
     };
