@@ -78,7 +78,14 @@ SPDX-License-Identifier: MIT
             mods = <(MOD_LSFT)>;
         };
     };
-
+ behaviors {
+        PUNTODOSPUNTOS: punto_dospuntos {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp COMMA>, <&kp SEMICOLON>;
+            mods = <(MOD_LSFT)>;
+        };
+    };
 
 
   //}}}
@@ -98,8 +105,8 @@ SPDX-License-Identifier: MIT
          label = "Marcos";
          bindings = <
          &kp TAB          DE_Q  DE_W  DE_E  DE_R  DE_T                      &kp Y   &kp U  &kp I      &kp O     &kp P      &kp BSPC
-         DE_LSHFT   DE_A   DE_S   DE_D   DE_F   DE_G                        &kp H   &kp J  &kp K      &kp L     &kp SEMI   &kp APOS   
-         DE_LCTRL         DE_Y  DE_X  DE_C  DE_V  DE_B                      DE_N    DE_M   &kp COMMA  &kp DOT   &kp UNDER  &kp ESC
+         DE_LSHFT   DE_A   DE_S   DE_D   DE_F   DE_G                        &kp H   &kp J  &kp K      &kp L     DE_ENIE    &kp APOS   
+         DE_LCTRL         DE_Y  DE_X  DE_C  DE_V  DE_B                      DE_N    DE_M   &kp COMAPUNTOCOMA  &kp PUNTODOSPUNTOS   &kp UNDER  &kp ESC
                                   DE_LGUI  NUMBER_SPACE DE_RET           DE_SPACE SYMBOL_RGUI DE_RALT
             >;
       };
