@@ -71,11 +71,11 @@ SPDX-License-Identifier: MIT
 
  // ### MOD MORPH {{{
  behaviors {
-        gresc: grave_escape {
+        COMAPUNTOCOMA: coma_puntocoma {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp ESC>, <&kp GRAVE>;
-            mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
+            bindings = <&kp COMMA>, <&kp SEMICOLON>;
+            mods = <(MOD_LSFT)>;
         };
     };
 
