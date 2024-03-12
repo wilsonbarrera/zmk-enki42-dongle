@@ -116,18 +116,18 @@ SPDX-License-Identifier: MIT
        /*.-------------------------------------------------.                         .-------------------------------------------------.
          |    ~    |   1   |   2   |   3   |   4   |   5   |                         |   6   |   7   |   8   |   9   |   0   |BACKSPC  |
          |---------+-------+-------+-------+-------+-------|                         |-------+-------+-------+-------+-------+---------|
-         |CAPS_LOCK|   @   |   #   |       |   =   |   *   |                         |   +   |  LEFT |   UP  |  RIGHT|  (     |   )    |
+         | SHIFT   |   @   |   #   |       |   =   |   *   |                         |   +   |  LEFT |   UP  |  RIGHT|  (     |   )    |
          |---------+-------+-------+-------+-------+-------|                         |-------+-------+-------+-------+-------+---------|
-         | SHIFT   |    {  |   }    |       |   %   |   /   |                        |   -   |   ?   |  DOWN |       |  [     |   ]    |
+         | CTRL   |    {  |   }    |       |   %   |   /   |                        |   -   |   ?   |  DOWN |       |  [     |   ]    |
          '----------------------------------------------------------|       |----------------------------------------------------------'
-                                   |  CTRL |  CMD  |     SPACE      |       |        |  LSFT |      ALTGR    |
+                                   |  WIN |  CMD  |     ENTER       |       |    SPACE    |  LSFT |      ALTGR    |
                                    '--------------------------------'       '--------------------------------'*/
          label = "NUMBER";
          bindings = <
          &kp TILDE DE_1     DE_2   DE_3    DE_4      DE_5                        DE_6       DE_7     DE_8    DE_9        DE_0        DE_BSPC
-         DE_CAPS   DE_AT    DE_HASH        DE_EQL    DE_ASTR                     DE_PLUS    DE_LEFT  DE_UP   DE_RIGHT    &kp LPAR    &kp RPAR
-         DE_LSHFT  &kp LBRC &kp RBRC       DE_PERC   DE_SLSH                     &kp UNDER  DE_QUES  DE_DOWN             &kp LBKT    &kp RBKT
-                                          DE_LGUI   DE_LGUI    DE_SPACE   XXX   DE_LSHFT DE_RALT
+         &mt LSHIFT CLCK   DE_AT    DE_HASH        DE_EQL    DE_ASTR             DE_PLUS    DE_LEFT  DE_UP   DE_RIGHT    &kp LPAR    &kp RPAR
+         DE_LCTRL  &kp LBRC &kp RBRC       DE_PERC   DE_SLSH                     &kp UNDER  DE_QUES  DE_DOWN             &kp LBKT    &kp RBKT
+                                          DE_LGUI   DE_LGUI    DE_RET   DE_SPACE DE_LSHFT DE_RALT
             >;
       };
       // }}}
