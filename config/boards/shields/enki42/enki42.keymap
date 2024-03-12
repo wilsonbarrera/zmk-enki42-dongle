@@ -133,9 +133,9 @@ SPDX-License-Identifier: MIT
                                    '--------------------------------'       '--------------------------------'*/
          label = "NUMBER";
          bindings = <
-         &kp TILDE DE_1     DE_2   DE_3    DE_4      DE_5                        DE_6       DE_7     DE_8    DE_9        DE_0        DE_BSPC
-         &mt LSHIFT CLCK   DE_AT    DE_HASH        DE_EQL    DE_ASTR             DE_PLUS    DE_LEFT  DE_UP   DE_RIGHT    &kp LPAR    &kp RPAR
-         DE_LCTRL  &kp LBRC &kp RBRC       DE_PERC   DE_SLSH                     &kp UNDER  DE_QUES  DE_DOWN             &kp LBKT    &kp RBKT
+         &kp TILDE       DE_1     DE_2       DE_3        DE_4        DE_5                        DE_6       DE_7     DE_8    DE_9        DE_0        DE_BSPC
+         &mt LSHIFT CLCK &kp AT   &kp HASH               &kp EQUAL   &kp ASTRK                   &kp PLUS    &kp LEFT  &kp UP   &kp RIGHT    &kp LPAR    &kp RPAR
+         DE_LCTRL        &kp LBRC &kp RBRC               &kp PERCENT &kp SLASH                   &kp UNDER  &kp QUESTION  &kp DOWN             &kp LBKT    &kp RBKT
                                           DE_LGUI   DE_LGUI    DE_RET   DE_SPACE DE_LSHFT DE_RALT
             >;
       };
@@ -153,8 +153,8 @@ SPDX-License-Identifier: MIT
                                   '--------------------------------'       '--------------------------------'*/
          label = "SYMBOL";
          bindings = <
-         &kp TILDE &kp EXCL &kp DQT   DE_HASH  &kp DLLR   &kp PRCNT                  &kp AMPS DE_SLSH   &kp LPAR  &kp RPAR &kp EQUAL DE_BSPC
-         &kp PIPE  &kp AT   DE_RCBR   DE_CARET DE_PG_UP   DE_HASH                    DE_BSLS                      DE_AMPR     DE_PG_UP     &kp PRINTSCREEN
+         &kp TILDE &kp EXCL &kp DQT   &kp HASH &kp DLLR   &kp PRCNT                  &kp AMPS &kp SLASH   &kp LPAR  &kp RPAR &kp EQUAL DE_BSPC
+         &kp PIPE  &kp AT   DE_RCBR   DE_CARET DE_PG_UP   DE_HASH                    &kp BACKSLASH                      &kp AMPS     DE_PG_UP     &kp PRINTSCREEN
          DE_LSHFT DE_LABK  DE_RABK   DE_HOME  DE_PG_DN   DE_END                               DE_QUOT   XXX      DE_HOME    DE_PG_DN   DE_END
                                               DE_LCTRL   DE_LGUI  DE_SPACE  DE_RET  SYMBOL_RGUI  FUNCTION_RALT
          >;
