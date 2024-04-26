@@ -150,7 +150,7 @@ SPDX-License-Identifier: MIT
          |--------+-------+-------+-------+-------+-------|                         |-------+-------+-------+-------+-------+---------|
          |SHIFT   |    <  |   >   |  HOME |PAGE_DO|  END  |                         |      |   '   |       |  HOME |PAGE_DO|   END   |
          '---------------------------------------------------------|       |----------------------------------------------------------'
-                                  |  WIN    |  CAPA FUNCION        | ENTER  |       |  SPACE | LSFT |       ALTGR      |
+                                  |  WIN    |  CMD        | ENTER  |       |  SPACE | LSFT |       ALTGR      |
                                   '--------------------------------'       '--------------------------------'*/
          label = "SYMBOL";
          bindings = <
@@ -178,7 +178,7 @@ SPDX-License-Identifier: MIT
          DE_F1  DE_F2   DE_F3   DE_F4    SPELL    TRADUCT                   &macro6   &macro5   &macro8    &macro2   DE_BRI_DN  DE_BRI_UP
          DE_F5  DE_F6   DE_F7   DE_F8    DE_BSLS  SNIPPET                   TASKM     &macro1   &macro3    &macro4   DE_PG_UP   &macro9
          DE_F9  DE_F10  DE_F11  DE_F12   CLIPBRD  EMOJI                     DE_LSHFT  DE_LSHFT  DE_RSHFT   DE_HOME   DE_PG_DN   DE_END
-                                         DE_LCTRL FUNCTION RALT  DE_LALT  DE_TAB  DE_ACUT   DE_LCTRL
+                                         DE_LCTRL DE_LGUI  DE_LALT  DE_TAB  DE_ACUT   DE_LCTRL
                               >;
                       };
       // }}}
